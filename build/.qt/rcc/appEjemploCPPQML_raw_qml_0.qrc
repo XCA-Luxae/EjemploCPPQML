@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/EjemploCPPQML/">
+    <file alias="main.qml">C:/GitHubXavi/EjemploCPPQML/main.qml</file>
+  </qresource>
+</RCC>
+

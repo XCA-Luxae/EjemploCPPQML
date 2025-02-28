@@ -1,0 +1,29 @@
+{
+    "classes": [
+        {
+            "className": "Utilities",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "getInfo1",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "getInfo2",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "Utilities",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "utilities.h",
+    "outputRevision": 68
+}

@@ -1,0 +1,4 @@
+module EjemploCPPQML
+typeinfo appEjemploCPPQML.qmltypes
+prefer :/EjemploCPPQML/
+

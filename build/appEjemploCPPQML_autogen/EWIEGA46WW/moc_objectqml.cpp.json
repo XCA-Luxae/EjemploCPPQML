@@ -1,0 +1,29 @@
+{
+    "classes": [
+        {
+            "className": "ObjectQML",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "function1",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "function2",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "ObjectQML",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "objectqml.h",
+    "outputRevision": 68
+}

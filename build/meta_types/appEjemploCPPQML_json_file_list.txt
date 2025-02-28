@@ -1,0 +1,3 @@
+C:/GitHubXavi/EjemploCPPQML/build/appEjemploCPPQML_autogen/include/../EWIEGA46WW/moc_cppproperty.cpp.json
+C:/GitHubXavi/EjemploCPPQML/build/appEjemploCPPQML_autogen/include/../EWIEGA46WW/moc_objectqml.cpp.json
+C:/GitHubXavi/EjemploCPPQML/build/appEjemploCPPQML_autogen/include/../EWIEGA46WW/moc_utilities.cpp.json

@@ -1,0 +1,183 @@
+[
+    {
+        "classes": [
+            {
+                "className": "CppProperty",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "counter",
+                        "notify": "counterChanged",
+                        "read": "getCounter",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setCounter"
+                    }
+                ],
+                "qualifiedClassName": "CppProperty",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "counterChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "name": "getCounter",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "value",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "setCounter",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "cppproperty.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "FoldersLX",
+                "object": true,
+                "qualifiedClassName": "FoldersLX",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "folders",
+                                "type": "QStringList"
+                            }
+                        ],
+                        "name": "getFolder",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "folder",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "getFolder1",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "name": "viewFolder",
+                        "returnType": "QStringList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "folder",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "setFolder",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getFolder2",
+                        "returnType": "QString"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "folderslx.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "ObjectQML",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "function1",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "function2",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "ObjectQML",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "objectqml.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Utilities",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "getInfo1",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getInfo2",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "Utilities",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "utilities.h",
+        "outputRevision": 68
+    }
+]

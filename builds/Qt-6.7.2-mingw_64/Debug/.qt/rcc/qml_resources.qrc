@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="images/goku.jpg">C:/GitHubXavi/EjemploCPPQML/images/goku.jpg</file>
+    <file alias="images/ok.png">C:/GitHubXavi/EjemploCPPQML/images/ok.png</file>
+  </qresource>
+</RCC>
+

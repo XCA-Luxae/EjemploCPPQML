@@ -1,0 +1,8 @@
+--resource
+C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_EjemploCPPQML.qrc
+--resource
+C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appEjemploCPPQML_raw_qml_0.qrc
+--resource
+C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qml_resources.qrc
+/EjemploCPPQML/Qml/main.qml
+/EjemploCPPQML/Qml/ventanaOk.qml

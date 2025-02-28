@@ -1,0 +1,59 @@
+{
+    "classes": [
+        {
+            "className": "CppProperty",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "counter",
+                    "notify": "counterChanged",
+                    "read": "getCounter",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setCounter"
+                }
+            ],
+            "qualifiedClassName": "CppProperty",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "counterChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "getCounter",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "value",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setCounter",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "cppproperty.h",
+    "outputRevision": 68
+}
