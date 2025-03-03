@@ -61,6 +61,70 @@
     {
         "classes": [
             {
+                "className": "FoldersLX",
+                "object": true,
+                "qualifiedClassName": "FoldersLX",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "folders",
+                                "type": "QStringList"
+                            }
+                        ],
+                        "name": "getFolder",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "folder",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "getFolder1",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "name": "viewFolder",
+                        "returnType": "QStringList"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "folder",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "setFolder",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getFolder2",
+                        "returnType": "QString"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "folderslx.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
                 "className": "ObjectQML",
                 "methods": [
                     {

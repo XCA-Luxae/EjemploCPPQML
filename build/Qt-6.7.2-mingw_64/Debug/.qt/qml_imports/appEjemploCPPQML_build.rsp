@@ -1,0 +1,15 @@
+-rootPath
+C:/GitHubXavi/EjemploCPPQML
+-cmake-output
+-output-file
+C:/GitHubXavi/EjemploCPPQML/build/Qt-6.7.2-mingw_64/Debug/.qt/qml_imports/appEjemploCPPQML_build.cmake
+-importPath
+C:/GitHubXavi/EjemploCPPQML/build/Qt-6.7.2-mingw_64/Debug/EjemploCPPQML
+-importPath
+C:/GitHubXavi/EjemploCPPQML/build/Qt-6.7.2-mingw_64/Debug
+-importPath
+C:/Qt/6.7.2/mingw_64/./qml
+-qrcFiles
+C:/GitHubXavi/EjemploCPPQML/build/Qt-6.7.2-mingw_64/Debug/.qt/rcc/qmake_EjemploCPPQML.qrc
+C:/GitHubXavi/EjemploCPPQML/build/Qt-6.7.2-mingw_64/Debug/.qt/rcc/appEjemploCPPQML_raw_qml_0.qrc
+C:/GitHubXavi/EjemploCPPQML/build/Qt-6.7.2-mingw_64/Debug/.qt/rcc/qml_resources.qrc

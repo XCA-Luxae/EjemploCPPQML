@@ -987,6 +987,12 @@
 			null
 		],
 		[
+			"C:/GitHubXavi/EjemploCPPQML/Inc/folderslx.h",
+			"Mu",
+			"C2K46SIDN7/moc_folderslx.cpp",
+			null
+		],
+		[
 			"C:/GitHubXavi/EjemploCPPQML/Inc/objectqml.h",
 			"Mu",
 			"C2K46SIDN7/moc_objectqml.cpp",
@@ -996,12 +1002,6 @@
 			"C:/GitHubXavi/EjemploCPPQML/Inc/utilities.h",
 			"Mu",
 			"C2K46SIDN7/moc_utilities.cpp",
-			null
-		],
-		[
-			"C:/GitHubXavi/EjemploCPPQML/folderslx.h",
-			"Mu",
-			"EWIEGA46WW/moc_folderslx.cpp",
 			null
 		]
 	],
@@ -1087,6 +1087,7 @@
 		"C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appEjemploCPPQML_raw_qml_0.cpp",
 		"C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_EjemploCPPQML.cpp",
 		"C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qml_resources.cpp",
+		"C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_Qml/foldersImage_qml.cpp",
 		"C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_Qml/main_qml.cpp",
 		"C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_Qml/ventanaOk_qml.cpp",
 		"C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_qmlcache_loader.cpp",
@@ -1103,10 +1104,10 @@
 	"SOURCES" : 
 	[
 		[ "C:/GitHubXavi/EjemploCPPQML/Src/cppproperty.cpp", "Mu", null ],
+		[ "C:/GitHubXavi/EjemploCPPQML/Src/folderslx.cpp", "Mu", null ],
 		[ "C:/GitHubXavi/EjemploCPPQML/Src/main.cpp", "Mu", null ],
 		[ "C:/GitHubXavi/EjemploCPPQML/Src/objectqml.cpp", "Mu", null ],
-		[ "C:/GitHubXavi/EjemploCPPQML/Src/utilities.cpp", "Mu", null ],
-		[ "C:/GitHubXavi/EjemploCPPQML/folderslx.cpp", "Mu", null ]
+		[ "C:/GitHubXavi/EjemploCPPQML/Src/utilities.cpp", "Mu", null ]
 	],
 	"USE_BETTER_GRAPH" : false,
 	"VERBOSITY" : 0

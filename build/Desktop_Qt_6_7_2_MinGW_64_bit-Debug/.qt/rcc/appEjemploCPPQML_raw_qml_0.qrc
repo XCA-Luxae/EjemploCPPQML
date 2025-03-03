@@ -2,6 +2,7 @@
   <qresource prefix="/EjemploCPPQML/">
     <file alias="Qml/main.qml">C:/GitHubXavi/EjemploCPPQML/Qml/main.qml</file>
     <file alias="Qml/ventanaOk.qml">C:/GitHubXavi/EjemploCPPQML/Qml/ventanaOk.qml</file>
+    <file alias="Qml/foldersImage.qml">C:/GitHubXavi/EjemploCPPQML/Qml/foldersImage.qml</file>
   </qresource>
 </RCC>
 

@@ -47,7 +47,7 @@ cmake_ninja_workdir = C$:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_
 #############################################
 # Order-only phony target for appEjemploCPPQML
 
-build cmake_object_order_depends_target_appEjemploCPPQML: phony || .qt/rcc/qrc_appEjemploCPPQML_raw_qml_0.cpp .qt/rcc/qrc_qmake_EjemploCPPQML.cpp .qt/rcc/qrc_qml_resources.cpp .rcc/qmlcache/appEjemploCPPQML_Qml/main_qml.cpp .rcc/qmlcache/appEjemploCPPQML_Qml/ventanaOk_qml.cpp .rcc/qmlcache/appEjemploCPPQML_qmlcache_loader.cpp EjemploCPPQML/appEjemploCPPQML.qmltypes appEjemploCPPQML_autogen appEjemploCPPQML_autogen/mocs_compilation.cpp appEjemploCPPQML_autogen/timestamp appEjemploCPPQML_autogen_timestamp_deps appEjemploCPPQML_qmlimportscan appEjemploCPPQML_tooling appejemplocppqml_qmltyperegistrations.cpp meta_types/appEjemploCPPQML_json_file_list.txt meta_types/appEjemploCPPQML_json_file_list.txt.timestamp meta_types/qt6appejemplocppqml_debug_metatypes.json meta_types/qt6appejemplocppqml_debug_metatypes.json.gen
+build cmake_object_order_depends_target_appEjemploCPPQML: phony || .qt/rcc/qrc_appEjemploCPPQML_raw_qml_0.cpp .qt/rcc/qrc_qmake_EjemploCPPQML.cpp .qt/rcc/qrc_qml_resources.cpp .rcc/qmlcache/appEjemploCPPQML_Qml/foldersImage_qml.cpp .rcc/qmlcache/appEjemploCPPQML_Qml/main_qml.cpp .rcc/qmlcache/appEjemploCPPQML_Qml/ventanaOk_qml.cpp .rcc/qmlcache/appEjemploCPPQML_qmlcache_loader.cpp EjemploCPPQML/appEjemploCPPQML.qmltypes appEjemploCPPQML_autogen appEjemploCPPQML_autogen/mocs_compilation.cpp appEjemploCPPQML_autogen/timestamp appEjemploCPPQML_autogen_timestamp_deps appEjemploCPPQML_qmlimportscan appEjemploCPPQML_tooling appejemplocppqml_qmltyperegistrations.cpp meta_types/appEjemploCPPQML_json_file_list.txt meta_types/appEjemploCPPQML_json_file_list.txt.timestamp meta_types/qt6appejemplocppqml_debug_metatypes.json meta_types/qt6appejemplocppqml_debug_metatypes.json.gen
 
 build CMakeFiles/appEjemploCPPQML.dir/appEjemploCPPQML_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__appEjemploCPPQML_unscanned_Debug C$:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appEjemploCPPQML_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appEjemploCPPQML
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -105,13 +105,13 @@ build CMakeFiles/appEjemploCPPQML.dir/Src/cppproperty.cpp.obj: CXX_COMPILER__app
   OBJECT_DIR = CMakeFiles\appEjemploCPPQML.dir
   OBJECT_FILE_DIR = CMakeFiles\appEjemploCPPQML.dir\Src
 
-build CMakeFiles/appEjemploCPPQML.dir/folderslx.cpp.obj: CXX_COMPILER__appEjemploCPPQML_unscanned_Debug C$:/GitHubXavi/EjemploCPPQML/folderslx.cpp || cmake_object_order_depends_target_appEjemploCPPQML
+build CMakeFiles/appEjemploCPPQML.dir/Src/folderslx.cpp.obj: CXX_COMPILER__appEjemploCPPQML_unscanned_Debug C$:/GitHubXavi/EjemploCPPQML/Src/folderslx.cpp || cmake_object_order_depends_target_appEjemploCPPQML
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
-  DEP_FILE = CMakeFiles\appEjemploCPPQML.dir\folderslx.cpp.obj.d
+  DEP_FILE = CMakeFiles\appEjemploCPPQML.dir\Src\folderslx.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
   INCLUDES = -IC:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appEjemploCPPQML_autogen/include -IC:/GitHubXavi/EjemploCPPQML -isystem C:/Qt/6.7.2/mingw_64/include/QtQml/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQml/6.7.2/QtQml -isystem C:/Qt/6.7.2/mingw_64/include/QtCore/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtCore/6.7.2/QtCore -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins/6.7.2/QtQmlBuiltins -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins -isystem C:/Qt/6.7.2/mingw_64/include/QtQml -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlIntegration -isystem C:/Qt/6.7.2/mingw_64/include/QtNetwork -isystem C:/Qt/6.7.2/mingw_64/include/QtQuick -isystem C:/Qt/6.7.2/mingw_64/include/QtGui -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlModels -isystem C:/Qt/6.7.2/mingw_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles\appEjemploCPPQML.dir
-  OBJECT_FILE_DIR = CMakeFiles\appEjemploCPPQML.dir
+  OBJECT_FILE_DIR = CMakeFiles\appEjemploCPPQML.dir\Src
 
 build CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_qmlcache_loader.cpp.obj: CXX_COMPILER__appEjemploCPPQML_unscanned_Debug C$:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_qmlcache_loader.cpp || cmake_object_order_depends_target_appEjemploCPPQML
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
@@ -132,6 +132,14 @@ build CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/
 build CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_Qml/ventanaOk_qml.cpp.obj: CXX_COMPILER__appEjemploCPPQML_unscanned_Debug C$:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_Qml/ventanaOk_qml.cpp || cmake_object_order_depends_target_appEjemploCPPQML
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\appEjemploCPPQML.dir\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.rcc\qmlcache\appEjemploCPPQML_Qml\ventanaOk_qml.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
+  INCLUDES = -IC:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appEjemploCPPQML_autogen/include -IC:/GitHubXavi/EjemploCPPQML -isystem C:/Qt/6.7.2/mingw_64/include/QtQml/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQml/6.7.2/QtQml -isystem C:/Qt/6.7.2/mingw_64/include/QtCore/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtCore/6.7.2/QtCore -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins/6.7.2/QtQmlBuiltins -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins -isystem C:/Qt/6.7.2/mingw_64/include/QtQml -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlIntegration -isystem C:/Qt/6.7.2/mingw_64/include/QtNetwork -isystem C:/Qt/6.7.2/mingw_64/include/QtQuick -isystem C:/Qt/6.7.2/mingw_64/include/QtGui -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlModels -isystem C:/Qt/6.7.2/mingw_64/include/QtOpenGL
+  OBJECT_DIR = CMakeFiles\appEjemploCPPQML.dir
+  OBJECT_FILE_DIR = CMakeFiles\appEjemploCPPQML.dir\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.rcc\qmlcache\appEjemploCPPQML_Qml
+
+build CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_Qml/foldersImage_qml.cpp.obj: CXX_COMPILER__appEjemploCPPQML_unscanned_Debug C$:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_Qml/foldersImage_qml.cpp || cmake_object_order_depends_target_appEjemploCPPQML
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\appEjemploCPPQML.dir\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.rcc\qmlcache\appEjemploCPPQML_Qml\foldersImage_qml.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -fdiagnostics-color=always
   INCLUDES = -IC:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/appEjemploCPPQML_autogen/include -IC:/GitHubXavi/EjemploCPPQML -isystem C:/Qt/6.7.2/mingw_64/include/QtQml/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQml/6.7.2/QtQml -isystem C:/Qt/6.7.2/mingw_64/include/QtCore/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtCore/6.7.2/QtCore -isystem C:/Qt/6.7.2/mingw_64/include/QtCore -isystem C:/Qt/6.7.2/mingw_64/include -isystem C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins/6.7.2 -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins/6.7.2/QtQmlBuiltins -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlBuiltins -isystem C:/Qt/6.7.2/mingw_64/include/QtQml -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlIntegration -isystem C:/Qt/6.7.2/mingw_64/include/QtNetwork -isystem C:/Qt/6.7.2/mingw_64/include/QtQuick -isystem C:/Qt/6.7.2/mingw_64/include/QtGui -isystem C:/Qt/6.7.2/mingw_64/include/QtQmlModels -isystem C:/Qt/6.7.2/mingw_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles\appEjemploCPPQML.dir
@@ -161,7 +169,7 @@ build CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/
 #############################################
 # Link the executable appEjemploCPPQML.exe
 
-build appEjemploCPPQML.exe: CXX_EXECUTABLE_LINKER__appEjemploCPPQML_Debug CMakeFiles/appEjemploCPPQML.dir/appEjemploCPPQML_autogen/mocs_compilation.cpp.obj CMakeFiles/appEjemploCPPQML.dir/Src/main.cpp.obj CMakeFiles/appEjemploCPPQML.dir/appejemplocppqml_qmltyperegistrations.cpp.obj CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_EjemploCPPQML.cpp.obj CMakeFiles/appEjemploCPPQML.dir/Src/utilities.cpp.obj CMakeFiles/appEjemploCPPQML.dir/Src/objectqml.cpp.obj CMakeFiles/appEjemploCPPQML.dir/Src/cppproperty.cpp.obj CMakeFiles/appEjemploCPPQML.dir/folderslx.cpp.obj CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_qmlcache_loader.cpp.obj CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_Qml/main_qml.cpp.obj CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_Qml/ventanaOk_qml.cpp.obj CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appEjemploCPPQML_raw_qml_0.cpp.obj CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qml_resources.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Quick.a C$:/Qt/6.7.2/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Qml.a C$:/Qt/6.7.2/mingw_64/lib/libQt6QmlBuiltins.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Network.a C$:/Qt/6.7.2/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a || appEjemploCPPQML_autogen appEjemploCPPQML_autogen_timestamp_deps appEjemploCPPQML_qmlimportscan appEjemploCPPQML_tooling
+build appEjemploCPPQML.exe: CXX_EXECUTABLE_LINKER__appEjemploCPPQML_Debug CMakeFiles/appEjemploCPPQML.dir/appEjemploCPPQML_autogen/mocs_compilation.cpp.obj CMakeFiles/appEjemploCPPQML.dir/Src/main.cpp.obj CMakeFiles/appEjemploCPPQML.dir/appejemplocppqml_qmltyperegistrations.cpp.obj CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_EjemploCPPQML.cpp.obj CMakeFiles/appEjemploCPPQML.dir/Src/utilities.cpp.obj CMakeFiles/appEjemploCPPQML.dir/Src/objectqml.cpp.obj CMakeFiles/appEjemploCPPQML.dir/Src/cppproperty.cpp.obj CMakeFiles/appEjemploCPPQML.dir/Src/folderslx.cpp.obj CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_qmlcache_loader.cpp.obj CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_Qml/main_qml.cpp.obj CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_Qml/ventanaOk_qml.cpp.obj CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_Qml/foldersImage_qml.cpp.obj CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appEjemploCPPQML_raw_qml_0.cpp.obj CMakeFiles/appEjemploCPPQML.dir/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_qml_resources.cpp.obj | C$:/Qt/6.7.2/mingw_64/lib/libQt6Quick.a C$:/Qt/6.7.2/mingw_64/lib/libQt6QmlModels.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Qml.a C$:/Qt/6.7.2/mingw_64/lib/libQt6QmlBuiltins.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Network.a C$:/Qt/6.7.2/mingw_64/lib/libQt6OpenGL.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.7.2/mingw_64/lib/libQt6Core.a || appEjemploCPPQML_autogen appEjemploCPPQML_autogen_timestamp_deps appEjemploCPPQML_qmlimportscan appEjemploCPPQML_tooling
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = C:/Qt/6.7.2/mingw_64/lib/libQt6Quick.a  C:/Qt/6.7.2/mingw_64/lib/libQt6QmlModels.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Qml.a  C:/Qt/6.7.2/mingw_64/lib/libQt6QmlBuiltins.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Network.a  -lws2_32  -lshell32  C:/Qt/6.7.2/mingw_64/lib/libQt6OpenGL.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a  C:/Qt/6.7.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -luser32  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\appEjemploCPPQML.dir
@@ -223,7 +231,7 @@ build all_qmllint_module: phony appEjemploCPPQML_qmllint_module
 #############################################
 # Utility command for appEjemploCPPQML_tooling
 
-build appEjemploCPPQML_tooling: phony EjemploCPPQML/Qml/main.qml EjemploCPPQML/Qml/ventanaOk.qml
+build appEjemploCPPQML_tooling: phony EjemploCPPQML/Qml/main.qml EjemploCPPQML/Qml/ventanaOk.qml EjemploCPPQML/Qml/foldersImage.qml
 
 
 #############################################
@@ -365,9 +373,18 @@ build .rcc/qmlcache/appEjemploCPPQML_Qml/ventanaOk_qml.cpp | ${cmake_ninja_workd
 
 
 #############################################
+# Custom command for .rcc\qmlcache\appEjemploCPPQML_Qml\foldersImage_qml.cpp
+
+build .rcc/qmlcache/appEjemploCPPQML_Qml/foldersImage_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appEjemploCPPQML_Qml/foldersImage_qml.cpp: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmlcachegen.exe C$:/GitHubXavi/EjemploCPPQML/Qml/foldersImage.qml .qt/rcc/qmake_EjemploCPPQML.qrc .qt/rcc/appEjemploCPPQML_raw_qml_0.qrc .qt/rcc/qml_resources.qrc EjemploCPPQML/appEjemploCPPQML.qmltypes EjemploCPPQML/qmldir || appEjemploCPPQML_autogen appEjemploCPPQML_autogen_timestamp_deps appEjemploCPPQML_qmlimportscan appEjemploCPPQML_tooling
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GitHubXavi\EjemploCPPQML\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug && C:\Qt\Tools\CMake_64\bin\cmake.exe -E make_directory C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_Qml && C:\GitHubXavi\EjemploCPPQML\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.7.2/mingw_64/./bin/qmlcachegen.exe --bare --resource-path /EjemploCPPQML/Qml/foldersImage.qml -I C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug -I C:/Qt/6.7.2/mingw_64/./qml -i C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploCPPQML/qmldir --resource C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qmake_EjemploCPPQML.qrc --resource C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appEjemploCPPQML_raw_qml_0.qrc --resource C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qml_resources.qrc -o C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmlcache/appEjemploCPPQML_Qml/foldersImage_qml.cpp C:/GitHubXavi/EjemploCPPQML/Qml/foldersImage.qml"
+  DESC = Generating .rcc/qmlcache/appEjemploCPPQML_Qml/foldersImage_qml.cpp
+  restat = 1
+
+
+#############################################
 # Custom command for .qt\rcc\qrc_appEjemploCPPQML_raw_qml_0.cpp
 
-build .qt/rcc/qrc_appEjemploCPPQML_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appEjemploCPPQML_raw_qml_0.cpp: CUSTOM_COMMAND C$:/GitHubXavi/EjemploCPPQML/Qml/main.qml C$:/GitHubXavi/EjemploCPPQML/Qml/ventanaOk.qml .qt/rcc/appEjemploCPPQML_raw_qml_0.qrc C$:/Qt/6.7.2/mingw_64/./bin/rcc.exe || appEjemploCPPQML_autogen appEjemploCPPQML_autogen_timestamp_deps appEjemploCPPQML_qmlimportscan appEjemploCPPQML_tooling
+build .qt/rcc/qrc_appEjemploCPPQML_raw_qml_0.cpp | ${cmake_ninja_workdir}.qt/rcc/qrc_appEjemploCPPQML_raw_qml_0.cpp: CUSTOM_COMMAND C$:/GitHubXavi/EjemploCPPQML/Qml/main.qml C$:/GitHubXavi/EjemploCPPQML/Qml/ventanaOk.qml C$:/GitHubXavi/EjemploCPPQML/Qml/foldersImage.qml .qt/rcc/appEjemploCPPQML_raw_qml_0.qrc C$:/Qt/6.7.2/mingw_64/./bin/rcc.exe || appEjemploCPPQML_autogen appEjemploCPPQML_autogen_timestamp_deps appEjemploCPPQML_qmlimportscan appEjemploCPPQML_tooling
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GitHubXavi\EjemploCPPQML\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug && C:\Qt\6.7.2\mingw_64\.\bin\rcc.exe --output C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/qrc_appEjemploCPPQML_raw_qml_0.cpp --name appEjemploCPPQML_raw_qml_0 C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/rcc/appEjemploCPPQML_raw_qml_0.qrc --no-zstd"
   DESC = Running rcc for resource appEjemploCPPQML_raw_qml_0
   restat = 1
@@ -411,21 +428,21 @@ build CMakeFiles/appEjemploCPPQML_qmltyperegistration | ${cmake_ninja_workdir}CM
 #############################################
 # Custom command for CMakeFiles\appEjemploCPPQML_qmllint
 
-build CMakeFiles/appEjemploCPPQML_qmllint | ${cmake_ninja_workdir}CMakeFiles/appEjemploCPPQML_qmllint: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmllint.exe C$:/GitHubXavi/EjemploCPPQML/Qml/main.qml C$:/GitHubXavi/EjemploCPPQML/Qml/ventanaOk.qml .rcc/qmllint/appEjemploCPPQML.rsp || all_qmltyperegistrations appEjemploCPPQML_qmltyperegistration
+build CMakeFiles/appEjemploCPPQML_qmllint | ${cmake_ninja_workdir}CMakeFiles/appEjemploCPPQML_qmllint: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmllint.exe C$:/GitHubXavi/EjemploCPPQML/Qml/main.qml C$:/GitHubXavi/EjemploCPPQML/Qml/ventanaOk.qml C$:/GitHubXavi/EjemploCPPQML/Qml/foldersImage.qml .rcc/qmllint/appEjemploCPPQML.rsp || all_qmltyperegistrations appEjemploCPPQML_qmltyperegistration
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GitHubXavi\EjemploCPPQML && C:\GitHubXavi\EjemploCPPQML\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.7.2/mingw_64/bin/qmllint.exe @C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmllint/appEjemploCPPQML.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appEjemploCPPQML_qmllint_json
 
-build CMakeFiles/appEjemploCPPQML_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appEjemploCPPQML_qmllint_json: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmllint.exe C$:/GitHubXavi/EjemploCPPQML/Qml/main.qml C$:/GitHubXavi/EjemploCPPQML/Qml/ventanaOk.qml .rcc/qmllint/appEjemploCPPQML_json.rsp || all_qmltyperegistrations appEjemploCPPQML_qmltyperegistration
+build CMakeFiles/appEjemploCPPQML_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appEjemploCPPQML_qmllint_json: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmllint.exe C$:/GitHubXavi/EjemploCPPQML/Qml/main.qml C$:/GitHubXavi/EjemploCPPQML/Qml/ventanaOk.qml C$:/GitHubXavi/EjemploCPPQML/Qml/foldersImage.qml .rcc/qmllint/appEjemploCPPQML_json.rsp || all_qmltyperegistrations appEjemploCPPQML_qmltyperegistration
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GitHubXavi\EjemploCPPQML && C:\GitHubXavi\EjemploCPPQML\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.7.2/mingw_64/bin/qmllint.exe @C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmllint/appEjemploCPPQML_json.rsp"
 
 
 #############################################
 # Custom command for CMakeFiles\appEjemploCPPQML_qmllint_module
 
-build CMakeFiles/appEjemploCPPQML_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appEjemploCPPQML_qmllint_module: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmllint.exe C$:/GitHubXavi/EjemploCPPQML/Qml/main.qml C$:/GitHubXavi/EjemploCPPQML/Qml/ventanaOk.qml .rcc/qmllint/appEjemploCPPQML_module.rsp || all_qmltyperegistrations appEjemploCPPQML_qmltyperegistration
+build CMakeFiles/appEjemploCPPQML_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appEjemploCPPQML_qmllint_module: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmllint.exe C$:/GitHubXavi/EjemploCPPQML/Qml/main.qml C$:/GitHubXavi/EjemploCPPQML/Qml/ventanaOk.qml C$:/GitHubXavi/EjemploCPPQML/Qml/foldersImage.qml .rcc/qmllint/appEjemploCPPQML_module.rsp || all_qmltyperegistrations appEjemploCPPQML_qmltyperegistration
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GitHubXavi\EjemploCPPQML && C:\GitHubXavi\EjemploCPPQML\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.7.2/mingw_64/bin/qmllint.exe @C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.rcc/qmllint/appEjemploCPPQML_module.rsp"
 
 
@@ -448,6 +465,15 @@ build EjemploCPPQML/Qml/ventanaOk.qml | ${cmake_ninja_workdir}EjemploCPPQML/Qml/
 
 
 #############################################
+# Custom command for EjemploCPPQML\Qml\foldersImage.qml
+
+build EjemploCPPQML/Qml/foldersImage.qml | ${cmake_ninja_workdir}EjemploCPPQML/Qml/foldersImage.qml: CUSTOM_COMMAND C$:/GitHubXavi/EjemploCPPQML/Qml/foldersImage.qml
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GitHubXavi\EjemploCPPQML && C:\Qt\Tools\CMake_64\bin\cmake.exe -E copy C:/GitHubXavi/EjemploCPPQML/Qml/foldersImage.qml C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploCPPQML/Qml/foldersImage.qml"
+  DESC = Copying Qml/foldersImage.qml to C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/EjemploCPPQML/Qml/foldersImage.qml
+  restat = 1
+
+
+#############################################
 # Phony custom command for CMakeFiles\appEjemploCPPQML_qmlimportscan
 
 build CMakeFiles/appEjemploCPPQML_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/appEjemploCPPQML_qmlimportscan: phony .qt/qml_imports/appEjemploCPPQML_build.cmake
@@ -456,7 +482,7 @@ build CMakeFiles/appEjemploCPPQML_qmlimportscan | ${cmake_ninja_workdir}CMakeFil
 #############################################
 # Custom command for .qt\qml_imports\appEjemploCPPQML_build.cmake
 
-build .qt/qml_imports/appEjemploCPPQML_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appEjemploCPPQML_build.cmake: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmlimportscanner.exe .qt/rcc/qmake_EjemploCPPQML.qrc .qt/rcc/appEjemploCPPQML_raw_qml_0.qrc .qt/rcc/qml_resources.qrc C$:/GitHubXavi/EjemploCPPQML/Qml/main.qml C$:/GitHubXavi/EjemploCPPQML/Qml/ventanaOk.qml
+build .qt/qml_imports/appEjemploCPPQML_build.cmake | ${cmake_ninja_workdir}.qt/qml_imports/appEjemploCPPQML_build.cmake: CUSTOM_COMMAND C$:/Qt/6.7.2/mingw_64/bin/qmlimportscanner.exe .qt/rcc/qmake_EjemploCPPQML.qrc .qt/rcc/appEjemploCPPQML_raw_qml_0.qrc .qt/rcc/qml_resources.qrc C$:/GitHubXavi/EjemploCPPQML/Qml/main.qml C$:/GitHubXavi/EjemploCPPQML/Qml/ventanaOk.qml C$:/GitHubXavi/EjemploCPPQML/Qml/foldersImage.qml
   COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\GitHubXavi\EjemploCPPQML && C:\GitHubXavi\EjemploCPPQML\build\Desktop_Qt_6_7_2_MinGW_64_bit-Debug\.qt\bin\qt_setup_tool_path.bat C:/Qt/6.7.2/mingw_64/./bin/qmlimportscanner.exe @C:/GitHubXavi/EjemploCPPQML/build/Desktop_Qt_6_7_2_MinGW_64_bit-Debug/.qt/qml_imports/appEjemploCPPQML_build.rsp"
   DESC = Running qmlimportscanner for appEjemploCPPQML
   restat = 1

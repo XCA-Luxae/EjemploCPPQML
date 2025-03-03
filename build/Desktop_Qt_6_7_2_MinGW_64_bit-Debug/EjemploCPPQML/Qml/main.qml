@@ -5,7 +5,7 @@ import Counter 1.0
 
 Window {
     width: 640
-    height: 640
+    height: 740
     visible: true
     title: qsTr("Hello World")
 
@@ -71,7 +71,7 @@ Window {
 
     Text {
         id: myLabel2
-        x: 300
+        x: 600
         y: 240
         color: "black"
         font.pixelSize: 40
@@ -86,6 +86,26 @@ Window {
         text: "Ventana Ok"
         onClicked: {
             var component = Qt.createComponent("ventanaOk.qml");
+            var ventanaOk = component.createObject();
+            ventanaOk.show();
+        }
+    }
+
+    ComboBox {
+        id: myComboBox
+        x: 300
+        y: 450
+        width: 200
+        height: 50
+        model: ["luxae_binaries"]
+        onPressedChanged:    {
+            console.log("refreshing paths")
+            myComboBox.model = foldersLX.viewFolder();
+        }
+        onActivated: {
+            console.log("selected folder: " + myComboBox.currentText)
+            foldersLX.setFolder(myComboBox.currentText)
+            var component = Qt.createComponent("foldersImage.qml");
             var ventanaOk = component.createObject();
             ventanaOk.show();
         }

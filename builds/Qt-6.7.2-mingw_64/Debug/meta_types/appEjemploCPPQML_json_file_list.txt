@@ -1,4 +1,0 @@
-C:/GitHubXavi/EjemploCPPQML/builds/Qt-6.7.2-mingw_64/Debug/appEjemploCPPQML_autogen/include_Debug/C2K46SIDN7/moc_cppproperty.cpp.json
-C:/GitHubXavi/EjemploCPPQML/builds/Qt-6.7.2-mingw_64/Debug/appEjemploCPPQML_autogen/include_Debug/C2K46SIDN7/moc_folderslx.cpp.json
-C:/GitHubXavi/EjemploCPPQML/builds/Qt-6.7.2-mingw_64/Debug/appEjemploCPPQML_autogen/include_Debug/C2K46SIDN7/moc_objectqml.cpp.json
-C:/GitHubXavi/EjemploCPPQML/builds/Qt-6.7.2-mingw_64/Debug/appEjemploCPPQML_autogen/include_Debug/C2K46SIDN7/moc_utilities.cpp.json

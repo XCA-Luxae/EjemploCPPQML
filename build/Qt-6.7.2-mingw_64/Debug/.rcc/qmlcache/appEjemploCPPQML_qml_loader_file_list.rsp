@@ -1,0 +1,9 @@
+--resource
+C:/GitHubXavi/EjemploCPPQML/build/Qt-6.7.2-mingw_64/Debug/.qt/rcc/qmake_EjemploCPPQML.qrc
+--resource
+C:/GitHubXavi/EjemploCPPQML/build/Qt-6.7.2-mingw_64/Debug/.qt/rcc/appEjemploCPPQML_raw_qml_0.qrc
+--resource
+C:/GitHubXavi/EjemploCPPQML/build/Qt-6.7.2-mingw_64/Debug/.qt/rcc/qml_resources.qrc
+/EjemploCPPQML/Qml/main.qml
+/EjemploCPPQML/Qml/ventanaOk.qml
+/EjemploCPPQML/Qml/foldersImage.qml

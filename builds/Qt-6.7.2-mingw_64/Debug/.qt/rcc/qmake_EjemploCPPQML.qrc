@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/EjemploCPPQML">
-    <file alias="qmldir">C:/GitHubXavi/EjemploCPPQML/builds/Qt-6.7.2-mingw_64/Debug/EjemploCPPQML/qmldir</file>
-  </qresource>
-</RCC>
-
